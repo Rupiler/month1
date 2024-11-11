@@ -1,0 +1,116 @@
+header{
+    background-color: violet;
+    height: 700px;
+    color: gold;
+    font-size: 30px;
+    background-image: url(https://www.russiadiscovery.ru/storage/orig/posts/1038/Kavkazskie_gory.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color:chartreuse;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: rgb(233, 1, 1) 2px 5px 5px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-size: 95px;
+    color: darkturquoise;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 2px 5px 5px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 119, 255);
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: rgba(0, 0, 0, 0.822);
+    font-weight:bold;
+    font-style: initial;
+}
+
+main{
+    background-color: red;
+    height: 100%;
+    color: rgb(255, 208, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: gray;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+}
+
+.container{
+    width: 95%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.left{
+    width: 49%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    padding-left: 6px;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.left{
+    background: linear-gradient( to left, green, blue); 
+}
+
+.right{
+    background: linear-gradient( to left, blue, green); 
+}
+
+.f_left{
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.f_left img{
+    padding-top: 10px;
+}
+
+.f_right{
+    width: 80%;
+    float: right;
+}
+
+.f_right img{
+    width: 100px;
+    padding-left: 20px;
+}
+
+.f_right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
